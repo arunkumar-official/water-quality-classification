@@ -26,3 +26,17 @@ if run in base python or python environment :
 
 #### step 5:
 go to chrome and type 127.0.0.1:8080/docs/
+
+### server request using python
+```
+!pip install requests
+```
+```
+import requests
+url = "htp://127.0.0.1:8080/predict"
+file = requests.get("https://cdn.britannica.com/32/93932-050-B213E0FB/ocean-water-beach-The-Bahamas-Grand-Bahama.jpg").content
+image_path = ""
+files = {"file": (image_path, file, "image/jpeg")}
+res = requests.post(url, file=files)
+print(res.json())
+```
