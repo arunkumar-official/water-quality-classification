@@ -1,6 +1,8 @@
 # Goal : To understand Vision Classification using CNN
 
-### prerequisite to run the inference server: python setup and internet for installing dependencies
+### prerequisite to run the inference server: 
+1. python setup and internet for installing dependencies
+2. [create model](model/README.md)
 
 #### Steps to start the server
 
