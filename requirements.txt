@@ -1,0 +1,14 @@
+httpx
+loguru
+requests
+uvicorn
+fastapi
+gunicorn
+pillow
+numpy
+python-multipart
+tensorflow
+pandas
+matplotlib
+tqdm
+opencv-python
