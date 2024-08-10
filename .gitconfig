@@ -1,0 +1,6 @@
+[core]
+    sshCommand = ssh -i /Users/arunkumarc/.ssh/my_key
+
+[user]
+    name = arunkumar-official
+    email = arunkumarc0610@gmail.com
